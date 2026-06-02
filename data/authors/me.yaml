@@ -2,14 +2,14 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Yixuan Wu
+  given: Yixuan
+  family: Wu
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: postgraduate student
+email: 446958126wuyixuan@gmail.com
 bio: |
   Full-stack developer with 5+ years of experience building scalable web applications.
   Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
@@ -23,23 +23,23 @@ links:
     url: mailto:alex@example.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/Yixuan0430
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/alexjohnson/
   - icon: brands/x
     url: https://x.com/alexjohnson
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Financial Economics
+  - Finance
+  - Business Intelligence
+  - Vibe coding
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: BSc. Economics
+    institution: University of Nottingham Ningbo China
+    start: 2022-09-01
+    end: 2026-05-31
     summary: |
       Focus on software engineering and distributed systems.
       Senior project on distributed caching systems.
@@ -47,6 +47,10 @@ education:
       text: View Project
       url: https://github.com/alexjohnson/senior-project
       icon: brands/github
+  - degree: MSc. Financial Economics
+    institution: Université Paris 1 Panthéon-Sorbonne
+    start: 2026-09-01
+    end: 2028-05-31
 
 experience:
   - role: Senior Software Engineer
@@ -93,8 +97,14 @@ skills:
         level: 5
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
+  - name: English
+    level: 5
+    label: Fluent
+  - name: French
+    level: 5
+    label: Fluent
 
 awards: []
