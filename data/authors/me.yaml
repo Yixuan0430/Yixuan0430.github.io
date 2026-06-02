@@ -36,6 +36,12 @@ interests:
   - Vibe coding
 
 education:
+  - degree: Master 1 (M1) in Economics - PSME
+    institution: Université Paris 1 Panthéon-Sorbonne
+    start: 2026-09-01
+    end: 2027-05-31
+    summary: |
+      Still Keep going....
   - degree: BSc. Economics
     institution: University of Nottingham Ningbo China
     start: 2022-09-01
@@ -47,10 +53,7 @@ education:
       text: View Project
       url: https://github.com/alexjohnson/senior-project
       icon: brands/github
-  - degree: MSc. Financial Economics
-    institution: Université Paris 1 Panthéon-Sorbonne
-    start: 2026-09-01
-    end: 2028-05-31
+
 
 experience:
   - role: Senior Software Engineer

@@ -6,29 +6,30 @@ date: 2026-01-05
 type: landing
 
 sections:
-  # 1. 主视觉模块（已为你定制为学术/数据分析方向，保留酷炫打字机特效）
+  # Developer Hero - Gradient background with name, role, social, and CTAs
   - block: dev-hero
     id: hero
     content:
       username: me
-      greeting: "你好，我是"
-      show_status: false
+      greeting: "Hi, I'm"
+      show_status: true
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "我关注"
+        prefix: "I build"
         strings:
-          - "经济学数据分析"
-          - "计量经济学建模"
-          - "学术研究与数据可视化"
+          - "full-stack web apps"
+          - "scalable APIs"
+          - "beautiful UIs"
+          - "open source tools"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: 查看我的项目
+        - text: View My Work
           url: "#projects"
           icon: arrow-down
-        - text: 取得联系
+        - text: Get In Touch
           url: "#contact"
           icon: envelope
     design:
@@ -42,20 +43,31 @@ sections:
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
   
-  # 2. 项目展示模块（未来用来存放你的计量模型或研究成果）
+  # Filterable Portfolio - Alpine.js powered project filtering
   - block: portfolio
     id: projects
     content:
-      title: "研究与项目 | Featured Projects"
-      subtitle: "学术研究与数据分析成果展示"
+      title: "Featured Projects"
+      subtitle: "A selection of my recent work"
       count: 0
       filters:
         folders:
           - projects
       buttons:
-        - name: 全部
+        - name: All
           tag: '*'
+        - name: Full-Stack
+          tag: Full-Stack
+        - name: Frontend
+          tag: Frontend
+        - name: Backend
+          tag: Backend
       default_button_index: 0
+      # Archive link auto-shown if more projects exist than 'count' above
+      # archive:
+      #   enable: false  # Set to false to explicitly hide
+      #   text: "Browse All"  # Customize text
+      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       background:
@@ -65,25 +77,27 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # 3. 联系方式模块
-  - block: contact-info
-    id: contact
+  # CTA Card
+  - block: cta-card
     content:
-      title: "保持联系 | Get In Touch"
-      subtitle: "欢迎学术交流与项目合作"
+      title: "Open to Opportunities"
       text: |-
-        如果你对我的研究方向感兴趣，或者有任何想交流的想法，欢迎随时通过邮件与我联系！
-      email: "your-email@example.com" # 👈 记得在网页端顺手改成你自己的邮箱
-      autolink: true
+        I'm currently looking for **senior engineering** or **tech lead** roles.
+        
+        Let's connect and discuss how I can help your team.
+      button:
+        text: 'Download Resume'
+        url: uploads/resume.pdf
+        new_tab: true
     design:
-      columns: '1'
+      card:
+        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
+        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
+        text_color: dark
       background:
         color:
-          light: "#ffffff"
-          dark: "#0d0d12"
+          light: "#f5f5f5"
+          dark: "#08080c"
       spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+        padding: ["4rem", "0", "6rem", "0"]
 ---
-
-Welcome to my personal website! 
-这里可以写一段你想对所有访客说的简短欢迎词（如果你想让主页更干净，第二组 --- 下方直接保持留空即可）。
